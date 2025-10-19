@@ -15,7 +15,7 @@ setInterval(displayCurrentTime, 1000)
 
 const hobbies = ["Playing Chess", "Reading", "Watching Movies", "Evening Walks", "Cooking"]
 
-const dislikes = ["Noise", "Crowded Places", "Drugs", "Slow Service", ""]
+const dislikes = ["Noise", "Crowded Places", "Drugs", "Slow Service"]
 
 const hobbiesList = document.getElementById("hobbies-list")
 hobbiesList.innerHTML = hobbies.map((hobby, index) => `<li class="list-item" data-testid="hobby-${index}">${hobby}</li>`).join("")
