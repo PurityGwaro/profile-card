@@ -21,4 +21,4 @@ const hobbiesList = document.getElementById("hobbies-list")
 hobbiesList.innerHTML = hobbies.map((hobby, index) => `<li class="list-item" data-testid="hobby-${index}">${hobby}</li>`).join("")
 
 const dislikesList = document.getElementById("dislikes-list")
-dislikesList.innerHTML = dislikes.map((dislike, index) => `<li class="list-item" data-testid="dislike-${index}>${dislike}</li>`).join("")
+dislikesList.innerHTML = dislikes.map((dislike, index) => `<li class="list-item" data-testid="dislike-${index}">${dislike}</li>`).join("")
