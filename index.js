@@ -13,6 +13,8 @@ document.getElementById('clock').textContent = timeString
 displayCurrentTime()
 setInterval(displayCurrentTime, 1000)
 
+document.getElementById('current-year').textContent = new Date().getFullYear()
+
 const hobbies = ["Playing Chess", "Reading", "Watching Movies", "Evening Walks", "Cooking"]
 
 const dislikes = ["Noise", "Crowded Places", "Drugs", "Slow Service"]

@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    </meta>
-    <meta name="viewport" content="width=device-width" />
-    <title data-testid="page title">Profile Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-testid="page title">Profile Card - Purity Gwaro</title>
     <link rel="stylesheet" href="/index.css">
 </head>
 
 <body>
-    <article data-testid="test-profile-card" class="profile-card">
+    <header class="site-header">
+        <nav class="main-nav" aria-label="Main navigation">
+            <div class="nav-container">
+                <a href="/index.html" class="logo">Purity Gwaro</a>
+                <ul class="nav-links">
+                    <li><a href="/index.html" class="nav-link active" aria-current="page">Home</a></li>
+                    <li><a href="/about.html" class="nav-link">About Me</a></li>
+                    <li><a href="/contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <article data-testid="test-profile-card" class="profile-card">
         <div class="heading">
-            <h3 class="profile-title">Profile Card</h3>
             <p data-testid="test-user-time" id="clock"></p>
         </div>
         <div class="content">
@@ -81,8 +93,12 @@
 
         </div>
     </article>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="current-year"></span> Purity Gwaro. All rights reserved.</p>
+    </footer>
 
     <script src="index.js"></script>
 </body>
-
 </html>
