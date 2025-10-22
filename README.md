@@ -58,3 +58,7 @@ Submission instructions
 Host the completed project (Netlify, GitHub Pages, etc.) and include the live URL.
 Include the GitHub repo link with clear README and instructions to run locally.
 Provide any relevant tests or notes in the repo.
+
+#### MY SOLUTION
+<img width="1800" height="1006" alt="image" src="https://github.com/user-attachments/assets/dc23394b-a69b-447f-94bd-fabc5e96a4a4" />
+
